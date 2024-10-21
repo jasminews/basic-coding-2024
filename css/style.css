@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Nanum+Gothic+Coding&display=swap');
+body {
+  body {
+    background-image: url("../css/bg.png")
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
 .header {
   background-color: #88dfd6;
   color: #145780;
@@ -26,18 +35,24 @@ p {
   text-align: center;
 }
 .red {
-  color: rgb(210, 118, 118);
+  color: rgb(201, 101, 101);
 }
 .zoo a {
   display: block;
   align-items: center;
+  background-image: url('https://i.imgur.com/nj1febd.jpg');
+  background-size: 500px;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+  border: 2px solid #145780;
+  box-shadow: 2px 2px 2px 2px black;
 }
 .table a {
   display: block;
   align-items: center;
 }
 .list a {
-  font-size: 24px;
+  font-size: 40px;
   font-family: Nanum Gothic Coding, serif;
   color: #145780;
   text-decoration: none;
@@ -45,11 +60,12 @@ p {
 }
 ul {
   list-style: none;
+  padding: 0;
+  width: 1000px;
+  height: 200px;
+  margin: auto;
 }
 ul li a {
-  height: 200px;
-  width: auto;
-  padding: 20px;
-  margin: 10px;
+  padding: 10px;
   background-color: rgb(247, 234, 173);
 }
